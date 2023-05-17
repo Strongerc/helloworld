@@ -18,6 +18,6 @@ public class HelloController {
     @GetMapping("")
     public String hello() {
         System.out.println("123");
-        return "OK";
+        return "OK1";
     }
 }
